@@ -1,0 +1,214 @@
+.s2-newCourses{
+  height: fit-content;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.new-courses-text-area{
+  width: 100%;
+  height: fit-content;
+  background-color: transparent;
+  margin-bottom: 20px;
+}
+
+.new-courses-cards-area{
+  width: 100%;
+  height: fit-content;
+  background-color: transparent;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  overflow-x: auto; /* 添加水平滚动条 */
+  white-space: nowrap; /* 防止内容换行 */
+}
+
+
+.newCourses-t1{
+  text-align: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.newCourses-t2{
+  width: 100%;
+  height: fit-content;
+  font-size: 50px;
+  text-align: center;
+}
+
+.newCourses-t3{
+  margin: 0 auto;
+  width: 350px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.newCourses-types{
+  text-align: center;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  width: 100px;
+  border-radius: 20px;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+#newCourses-option1{
+  color: white;
+  background-color: #FF9249;
+  border: none;
+}
+
+
+.card-size{
+  min-width: 193px;
+  height: fit-content;
+  padding-bottom: 20px;
+  border: 1px solid #d8d8d8;
+  border-radius: 20px;
+}
+
+.newCourses-images{
+  position: relative;
+  margin: 0 auto;
+  width: 93%;
+  height: fit-content;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+
+.newCourses-t{
+  width: 93%;
+  margin: 0 auto;
+  height: 20px;
+  margin-top: 10px;
+  display: flex;
+}
+
+.newCourses-t1-l{
+  text-align: left;
+  width: 60%;
+  white-space: nowrap;
+}
+
+.newCourses-t1-r{
+  flex: 1;
+  display: flex;
+}
+
+.nc-t1-r-p{
+  margin-left: auto;
+}
+
+.checked {
+  margin-right: 5px;
+  color: #FF9249;
+}
+
+.newCourses-bt3{
+  display: flex;
+  flex: 1;
+}
+
+.newCourses-i{
+  height: 20px;
+}
+
+#newCourses-bb{
+  height: 30px;
+}
+
+.newCourses-bbl{
+  width: 70px;
+  height: 30px;
+  display: flex;
+}
+
+.newCourses-bbr{
+  width: 100px;
+  height: 30px;
+  background-color: bisque;
+  display: flex;
+  margin-left: auto;
+  border-radius: 20px;
+  background-color: #FF9249;
+  cursor: pointer; /* 当鼠标悬停时变成手指 */
+}
+
+.newCourses-bbli{
+  height: 25px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.nc-bt{
+  margin-top: 6px;
+  margin-bottom: 6px;
+  color: #FF9249;
+}
+
+#nc-br{
+  color: white;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.nc-imagetext{
+  position: absolute;
+  text-align: center;
+  width: 60px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: #ff4949;
+  top: 5px;
+  left: 5px;
+}
+
+.nc-imagetext-free{
+  position: absolute;
+  text-align: center;
+  width: 60px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: #78df33;
+  top: 5px;
+  left: 5px;
+}
+
+.nc-itsize{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: white;
+}
+
+.nc-itsize-free{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: white;
+}
+
+.nc-image{
+  margin-top: 0px;
+  width: 100%;
+}
+
+
+.newCourses-i1{
+  width: 100%;
+  border-radius: 20px;
+}
+
+
+@media screen and (max-width: 920px) {
+  .s2-newCourses{
+    height: fit-content;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 60px;
+  }
+}

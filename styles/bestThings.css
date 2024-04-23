@@ -1,0 +1,171 @@
+.s3-bestThings{
+  margin-left: 100px;
+  margin-right: 100px;
+  height: fit-content;
+  margin-top: 100px;
+}
+
+.bestThings-cards-area{
+  width: 100%;
+  height: fit-content;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  overflow-x: auto; /* 添加水平滚动条 */
+  white-space: nowrap; /* 防止内容换行 */
+  overflow-x: auto; /* 添加水平滚动条 */
+  white-space: nowrap; /* 防止内容换行 */
+}
+
+.bt-card-size{
+  border-radius: 20px;
+  height: fit-content;
+  min-width: 193px;
+  padding-bottom: 70px;
+  box-shadow: 0 4px 8px 0 rgba(63, 63, 63, 0.2), 0 6px 20px 0 rgba(63, 63, 63, 0.2);
+}
+
+.bt-image{
+  margin-top: 30px;
+  height: 40px;
+  width: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bt-btext{
+  margin-top: 15px;
+  text-align: center;
+}
+
+.bt-line{
+  margin-top: 5px;
+  border-radius: 50px;
+  height: 3px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #d8d8d8;
+}
+
+.bt-line-orange{
+  height: 100%;
+  width: 20%;
+  border-radius: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #FF9249;
+}
+
+.bt-stext-area{
+  display: flex;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  height: fit-content;
+  white-space: wrap;
+  text-align: center;
+  line-height: 25px;
+  color: #7a7a7a;
+}
+
+svg {
+  width: 100%;
+  height: 100%;
+}
+
+#development-image-size{
+  stroke: #FF9249;
+}
+#uiuxdesign-image-size{
+  stroke: #FF9249;
+}
+#graphicDesign-image-size{
+  stroke: #FF9249;
+}
+#digitalMarketing-image{
+  stroke: #FF9249;
+}
+#webDev-image{
+  stroke: #FF9249;
+}
+#art-image{
+  stroke: #FF9249;
+}
+#photo-image{
+  stroke: #FF9249;
+}
+#life-image{
+  stroke: #FF9249;
+}
+
+.bt-card-size:hover{
+  background-color: #FF9249;
+  
+  #development-image-size{
+    stroke: white;
+  }
+  #uiuxdesign-image-size{
+    stroke: white;
+  }
+  #graphicDesign-image-size{
+    stroke: white;
+  }
+  #digitalMarketing-image{
+    stroke: white;
+  }
+  #webDev-image{
+    stroke: white;
+  }
+  #art-image{
+    stroke: white;
+  }
+  #photo-image{
+    stroke: white;
+  }
+  #life-image{
+    stroke: white;
+  }
+
+  .bt-btext{
+    margin-top: 15px;
+    text-align: center;
+    color: white;
+  }
+
+  .bt-line-orange{
+    height: 100%;
+    width: 20%;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+  }
+  
+  .bt-stext-area{
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: fit-content;
+    white-space: wrap;
+    text-align: center;
+    line-height: 25px;
+    color: white;
+  }
+
+}
+
+@media screen and (max-width: 920px) {
+  .s3-bestThings{
+    margin-left: 20px;
+    margin-right: 20px;
+    height: fit-content;
+  }
+}
+

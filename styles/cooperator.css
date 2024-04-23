@@ -1,0 +1,56 @@
+.cooperator-area{
+  display: flex;
+  width: 100%;
+  height: fit-content;
+  background-color: #ffede1;
+}
+
+.cooperator-content-area{
+  flex: 1;
+  display: flex;
+  height: fit-content;
+  width: 100%;
+  margin-left: 100px;
+  margin-right: 100px;
+  
+}
+
+.cooperator-images{
+  flex: 1;
+  width: 105px;
+  height: fit-content;
+  
+}
+
+.cooperator-image-size{
+  width: 100%;
+  margin-top: 42px;
+  margin-bottom: 42px;
+}
+
+@media screen and (max-width: 920px) {
+  .cooperator-area{
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    background-color: #ffede1;
+    overflow-x: auto; /* 添加水平滚动条 */
+    white-space: nowrap; /* 防止内容换行 */
+  }
+
+  .cooperator-content-area{
+    flex: 1;
+    display: flex;
+    height: fit-content;
+    width: 100%;
+    margin-left:20px;
+    margin-right: 20px;
+    
+  }
+
+  .cooperator-image-size{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}

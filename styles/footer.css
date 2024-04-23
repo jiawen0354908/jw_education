@@ -1,0 +1,119 @@
+.footer{
+  width: 100%;
+  height: fit-content;
+  margin-top: 30px;
+  background-color: #FF9249;
+}
+
+.footer-content{
+  margin: 0 auto;
+  margin-left: 100px;
+  margin-right: 100px;
+  height: 200px;
+  display: flex;
+  padding-top: 80px;
+}
+
+
+.footer-r{
+  flex: 1;
+}
+
+.footer-1t{
+  color: white;
+  font-size: 20px;
+  cursor: default;
+}
+
+.footer-social{
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  width: 150px;
+  height: 30px;
+}
+
+.footer-social-box{
+  width: 30px;
+  height: 30px;
+}
+
+#footer-social-facebook{
+  fill: white;
+}
+
+#footer-social-twi{
+  fill: white;
+}
+
+#footer-social-in{
+  fill: white;
+}
+
+#footer-social-ig{
+  fill: white;
+}
+
+.footer-t{
+  color: white;
+  font-size: 18px;
+  cursor: default;
+}
+
+.footer-st{
+  color: white;
+  margin-top: 20px;
+  cursor: pointer; /* 当鼠标悬停时变成手指 */
+}
+
+.footer-contact-box{
+  margin-top: 20px;
+  height: fit-content;
+  width: 100%;
+  display: flex;
+}
+
+.footer-contact-logo{
+  height: 20px;
+  width: 20px;
+}
+
+#footer-contact-logo-info{
+  stroke: white;
+}
+
+.footer-contactNumber{
+  margin-left: 5px;
+  color: white;
+}
+
+@media screen and (max-width: 920px) {
+  .footer-content{
+    margin: 0 auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 200px;
+    display: flex;
+    padding-top: 80px;
+    margin-bottom: 0px;
+  }
+
+  .footer-content{
+    margin: 0 auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 200px;
+    display: flex;
+    padding-top: 80px;
+    overflow-x: auto; /* 添加水平滚动条 */
+  white-space: nowrap; /* 防止内容换行 */
+  }
+
+
+
+
+
+
+  
+}
+

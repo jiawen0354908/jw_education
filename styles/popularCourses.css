@@ -1,0 +1,37 @@
+.s5-popularCourses{
+  margin-left: 100px;
+  margin-right: 100px;
+  height: fit-content;
+  margin-top: 100px;
+  padding-bottom: 20px;
+}
+
+.pc-cards-area{
+  width: 100%;
+  height: fit-content;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 20px;
+  overflow-x: auto; /* 添加水平滚动条 */
+  white-space: nowrap; /* 防止内容换行 */
+}
+
+
+.pc-card-size{
+  border-radius: 20px;
+  height: fit-content;
+  min-width: 193px;
+  padding-bottom: 20px;
+  border: 1px solid #d8d8d8;
+}
+
+@media screen and (max-width: 920px) {
+  .s5-popularCourses{
+    margin-left: 20px;
+    margin-right: 20px;
+    height: fit-content;
+    margin-top: 100px;
+    padding-bottom: 20px;
+  }
+}

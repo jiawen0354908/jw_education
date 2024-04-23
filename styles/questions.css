@@ -1,0 +1,104 @@
+.s9-questions{
+  margin-left: 100px;
+  margin-right: 100px;
+  height: fit-content;
+  margin-top: 100px;
+  padding-bottom: 20px;
+  display: flex;
+}
+
+.s9-q-l{
+  flex: 1;
+}
+
+.s9-1-r{
+  flex: 1;
+}
+
+.s9-q-lt1{
+  font-size: 20px;
+}
+
+.s9-q-lt2{
+  margin-top: 10px;
+  font-size: 40px;
+}
+
+.s9-q-lt3{
+  margin-top: 10px;
+  color: rgb(130, 130, 130);
+
+}
+
+.newCourses-i1{
+  width: 100%;
+}
+
+.q-rt{
+  margin-top: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 25px;
+  width: 100%;
+  height: 90px;
+  box-shadow: 0 4px 8px 0 rgba(63, 63, 63, 0.2), 0 6px 20px 0 rgba(63, 63, 63, 0.2);
+  display: flex;
+}
+
+.q-rtarea{
+  flex: 1;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 60px;
+
+}
+
+.q-rtinfo{
+  font-size: 18px;
+  margin-left: 20px;
+  margin-top: 19px;
+  margin-bottom: 19px;
+}
+
+.q-rb{
+  width: 40px;
+  height: 40px;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 20px;
+  border-radius: 50px;
+  border: 1px solid #d8d8d8;
+  cursor: pointer; /* 当鼠标悬停时变成手指 */
+}
+
+.q-rbinfo{
+  color: #d8d8d8;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 920px) {
+  .s9-questions{
+    margin-left: 20px;
+    margin-right: 20px;
+    height: fit-content;
+    margin-top: 100px;
+    padding-bottom: 20px;
+    display: block;
+  }
+
+  .q-rt{
+    margin-top: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 25px;
+    width: 100%;
+    height: 90px;
+    box-shadow: 0 4px 8px 0 rgba(63, 63, 63, 0.2), 0 6px 20px 0 rgba(63, 63, 63, 0.2);
+    display: flex;
+  }
+
+}
